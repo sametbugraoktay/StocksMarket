@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CryptoSwift (1.4.1)
+  - NavigationDrawer (1.0.3)
+  - RNCryptor (5.1.0)
+  - SideMenu (6.5.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Charts
+  - CryptoSwift
+  - NavigationDrawer
+  - RNCryptor
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - CryptoSwift
+    - NavigationDrawer
+    - RNCryptor
+    - SideMenu
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CryptoSwift: 0bc800a7e6a24c4fc9ebeab97d44b0d5f73a78bd
+  NavigationDrawer: ad87622628ed59589f8fe8e2338d27109ca51a64
+  RNCryptor: a369134686cd2ad391323cc856b62e591193ba79
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+
+PODFILE CHECKSUM: 94454253337fc978dd75b0410ff40f58d5b3e2ed
+
+COCOAPODS: 1.10.2

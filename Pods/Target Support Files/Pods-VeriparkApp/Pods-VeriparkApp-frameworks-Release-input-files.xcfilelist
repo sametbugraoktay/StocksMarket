@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-VeriparkApp/Pods-VeriparkApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${BUILT_PRODUCTS_DIR}/NavigationDrawer/NavigationDrawer.framework
+${BUILT_PRODUCTS_DIR}/RNCryptor/RNCryptor.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework

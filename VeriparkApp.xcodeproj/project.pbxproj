@@ -3,19 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111CDFB426BF58EE0050B2C4 /* MenuListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111CDFB326BF58EE0050B2C4 /* MenuListController.swift */; };
+		1131093826BD712900F14E4B /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131093726BD712900F14E4B /* AuthResponse.swift */; };
+		1131093B26BD713E00F14E4B /* StocksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131093A26BD713E00F14E4B /* StocksResponse.swift */; };
+		1131093E26BD715500F14E4B /* StockDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131093D26BD715400F14E4B /* StockDetailsResponse.swift */; };
+		1131094126BD716200F14E4B /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131094026BD716200F14E4B /* Status.swift */; };
+		1131094526BD718100F14E4B /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131094426BD718100F14E4B /* AuthManager.swift */; };
+		1131094926BD718C00F14E4B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131094826BD718C00F14E4B /* APICaller.swift */; };
+		1131095026BD733300F14E4B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131094F26BD733300F14E4B /* String+Extensions.swift */; };
+		1131095326BD734500F14E4B /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131095226BD734500F14E4B /* UIDevice+Extensions.swift */; };
+		1171455B26BD9B9200409BC7 /* StocksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171455A26BD9B9200409BC7 /* StocksListViewController.swift */; };
+		1171456526BDC17F00409BC7 /* StocksListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171456426BDC17F00409BC7 /* StocksListTableViewCell.swift */; };
 		1173C41C26BC6962006D545C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173C41B26BC6962006D545C /* AppDelegate.swift */; };
 		1173C41E26BC6962006D545C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173C41D26BC6962006D545C /* SceneDelegate.swift */; };
 		1173C42026BC6962006D545C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173C41F26BC6962006D545C /* ViewController.swift */; };
 		1173C42326BC6962006D545C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1173C42126BC6962006D545C /* Main.storyboard */; };
 		1173C42526BC6962006D545C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1173C42426BC6962006D545C /* Assets.xcassets */; };
 		1173C42826BC6962006D545C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1173C42626BC6962006D545C /* LaunchScreen.storyboard */; };
+		11CF15AF26C2B5C700F6B4F9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF15AE26C2B5C700F6B4F9 /* UIView+Extensions.swift */; };
+		11E7AAE826C009FC00CA0052 /* DetailsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7AAE726C009FC00CA0052 /* DetailsInfoView.swift */; };
+		11FB9CF526BF005400E7B6D9 /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FB9CF426BF005400E7B6D9 /* StockDetailViewController.swift */; };
+		8E8E76B30570E30F6BE55E38 /* Pods_VeriparkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC04C55C466C31CB6F38E97 /* Pods_VeriparkApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111CDFB326BF58EE0050B2C4 /* MenuListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListController.swift; sourceTree = "<group>"; };
+		1131093726BD712900F14E4B /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		1131093A26BD713E00F14E4B /* StocksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksResponse.swift; sourceTree = "<group>"; };
+		1131093D26BD715400F14E4B /* StockDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsResponse.swift; sourceTree = "<group>"; };
+		1131094026BD716200F14E4B /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		1131094426BD718100F14E4B /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		1131094826BD718C00F14E4B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		1131094F26BD733300F14E4B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		1131095226BD734500F14E4B /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		1171455A26BD9B9200409BC7 /* StocksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksListViewController.swift; sourceTree = "<group>"; };
+		1171456426BDC17F00409BC7 /* StocksListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksListTableViewCell.swift; sourceTree = "<group>"; };
 		1173C41826BC6961006D545C /* VeriparkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeriparkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1173C41B26BC6962006D545C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1173C41D26BC6962006D545C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +50,12 @@
 		1173C42426BC6962006D545C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1173C42726BC6962006D545C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1173C42926BC6962006D545C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CF15AE26C2B5C700F6B4F9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		11E7AAE726C009FC00CA0052 /* DetailsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInfoView.swift; sourceTree = "<group>"; };
+		11FB9CF426BF005400E7B6D9 /* StockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewController.swift; sourceTree = "<group>"; };
+		588F66B74EDDBB5247653418 /* Pods-VeriparkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriparkApp.release.xcconfig"; path = "Target Support Files/Pods-VeriparkApp/Pods-VeriparkApp.release.xcconfig"; sourceTree = "<group>"; };
+		7BC04C55C466C31CB6F38E97 /* Pods_VeriparkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeriparkApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38E83D83D711894AAAFA209 /* Pods-VeriparkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeriparkApp.debug.xcconfig"; path = "Target Support Files/Pods-VeriparkApp/Pods-VeriparkApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8E76B30570E30F6BE55E38 /* Pods_VeriparkApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1131093126BD710500F14E4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1131093726BD712900F14E4B /* AuthResponse.swift */,
+				1131093A26BD713E00F14E4B /* StocksResponse.swift */,
+				1131093D26BD715400F14E4B /* StockDetailsResponse.swift */,
+				1131094026BD716200F14E4B /* Status.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1131094326BD717000F14E4B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1131094426BD718100F14E4B /* AuthManager.swift */,
+				1131094826BD718C00F14E4B /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1131094B26BD719600F14E4B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1173C41F26BC6962006D545C /* ViewController.swift */,
+				1171455A26BD9B9200409BC7 /* StocksListViewController.swift */,
+				11FB9CF426BF005400E7B6D9 /* StockDetailViewController.swift */,
+				111CDFB326BF58EE0050B2C4 /* MenuListController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1131094C26BD719D00F14E4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11E7AAE726C009FC00CA0052 /* DetailsInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1131094E26BD731800F14E4B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1131094F26BD733300F14E4B /* String+Extensions.swift */,
+				1131095226BD734500F14E4B /* UIDevice+Extensions.swift */,
+				11CF15AE26C2B5C700F6B4F9 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1171456326BDC16600409BC7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1171456426BDC17F00409BC7 /* StocksListTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		1173C40F26BC6961006D545C = {
 			isa = PBXGroup;
 			children = (
 				1173C41A26BC6962006D545C /* VeriparkApp */,
 				1173C41926BC6961006D545C /* Products */,
+				BC3FDB7DF08354A2C07868A6 /* Pods */,
+				7AA9E7F5ADA9447EA55E72DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +148,37 @@
 		1173C41A26BC6962006D545C /* VeriparkApp */ = {
 			isa = PBXGroup;
 			children = (
+				1171456326BDC16600409BC7 /* Cells */,
+				1131094E26BD731800F14E4B /* Extensions */,
+				1131094C26BD719D00F14E4B /* Views */,
+				1131094B26BD719600F14E4B /* Controllers */,
+				1131094326BD717000F14E4B /* Managers */,
+				1131093126BD710500F14E4B /* Models */,
 				1173C41B26BC6962006D545C /* AppDelegate.swift */,
 				1173C41D26BC6962006D545C /* SceneDelegate.swift */,
-				1173C41F26BC6962006D545C /* ViewController.swift */,
 				1173C42126BC6962006D545C /* Main.storyboard */,
 				1173C42426BC6962006D545C /* Assets.xcassets */,
 				1173C42626BC6962006D545C /* LaunchScreen.storyboard */,
 				1173C42926BC6962006D545C /* Info.plist */,
 			);
 			path = VeriparkApp;
+			sourceTree = "<group>";
+		};
+		7AA9E7F5ADA9447EA55E72DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC04C55C466C31CB6F38E97 /* Pods_VeriparkApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3FDB7DF08354A2C07868A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E38E83D83D711894AAAFA209 /* Pods-VeriparkApp.debug.xcconfig */,
+				588F66B74EDDBB5247653418 /* Pods-VeriparkApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1173C42C26BC6962006D545C /* Build configuration list for PBXNativeTarget "VeriparkApp" */;
 			buildPhases = (
+				AFC7B334A37D086397C93A70 /* [CP] Check Pods Manifest.lock */,
 				1173C41426BC6961006D545C /* Sources */,
 				1173C41526BC6961006D545C /* Frameworks */,
 				1173C41626BC6961006D545C /* Resources */,
+				52719369E581ECB3E56F6C46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +248,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52719369E581ECB3E56F6C46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeriparkApp/Pods-VeriparkApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeriparkApp/Pods-VeriparkApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeriparkApp/Pods-VeriparkApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC7B334A37D086397C93A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeriparkApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1173C41426BC6961006D545C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FB9CF526BF005400E7B6D9 /* StockDetailViewController.swift in Sources */,
+				1131095026BD733300F14E4B /* String+Extensions.swift in Sources */,
 				1173C42026BC6962006D545C /* ViewController.swift in Sources */,
+				1131094526BD718100F14E4B /* AuthManager.swift in Sources */,
+				1171455B26BD9B9200409BC7 /* StocksListViewController.swift in Sources */,
+				1131093B26BD713E00F14E4B /* StocksResponse.swift in Sources */,
+				11CF15AF26C2B5C700F6B4F9 /* UIView+Extensions.swift in Sources */,
+				1131094126BD716200F14E4B /* Status.swift in Sources */,
+				111CDFB426BF58EE0050B2C4 /* MenuListController.swift in Sources */,
+				1131094926BD718C00F14E4B /* APICaller.swift in Sources */,
+				1131095326BD734500F14E4B /* UIDevice+Extensions.swift in Sources */,
+				1131093E26BD715500F14E4B /* StockDetailsResponse.swift in Sources */,
 				1173C41C26BC6962006D545C /* AppDelegate.swift in Sources */,
+				1131093826BD712900F14E4B /* AuthResponse.swift in Sources */,
+				11E7AAE826C009FC00CA0052 /* DetailsInfoView.swift in Sources */,
+				1171456526BDC17F00409BC7 /* StocksListTableViewCell.swift in Sources */,
 				1173C41E26BC6962006D545C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +455,13 @@
 		};
 		1173C42D26BC6962006D545C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38E83D83D711894AAAFA209 /* Pods-VeriparkApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VeriparkApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +475,13 @@
 		};
 		1173C42E26BC6962006D545C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588F66B74EDDBB5247653418 /* Pods-VeriparkApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VeriparkApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
