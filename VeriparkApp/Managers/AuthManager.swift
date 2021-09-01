@@ -74,4 +74,3 @@ final class AuthManager {
         UserDefaults.standard.setValue(result.aesIV, forKey: "aesIV")
     }
 }
-
